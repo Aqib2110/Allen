@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
 return (
     <div className='fixed z-10 w-full'>
