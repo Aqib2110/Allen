@@ -13,11 +13,15 @@ const Hero2 = () => {
   const handleTouchMove = (e) => {
     const touchMoveX = e.touches[0].clientX;
     const diff = touchStartX - touchMoveX;
-    
-    if (diff > 50 && trans < 300) {
-      setTrans((val) => val + 150);
+  
+    // Dynamically set slide distance based on screen width
+    const slideDistance = window.innerWidth < 640 ? 100 : 150; // 100px for mobile, 150px for larger screens
+    const maxTrans = window.innerWidth < 640 ? 200 : 300; // Set max translation for different screens
+  
+    if (diff > 50 && trans < maxTrans) {
+      setTrans((val) => val + slideDistance);
     } else if (diff < -50 && trans > 0) {
-      setTrans((val) => val - 150);
+      setTrans((val) => val - slideDistance);
     }
   };
 
