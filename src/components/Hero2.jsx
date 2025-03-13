@@ -1,4 +1,3 @@
-
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -37,11 +36,11 @@ const Hero2 = () => {
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           animate={{ x: -trans }}
-          transition={{ type: "spring", stiffness: 250 }}
+          transition={{ type: "spring", stiffness: 50 }}
         >
           {/* Card 1 */}
           <div className="bg-[#DCEDF8] relative min-w-[270px] lg:min-w-[260px] rounded-xl h-[190px] px-3 flex flex-col gap-3 mt-6">
-            <img className="h-[60px] -top-6 w-[60px] absolute" src="https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489047/1_dfic0f.svg" alt="" />
+            <img className="h-[60px] -top-6 w-[60px] absolute" src="https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489041.svg" alt="" />
             <div className="mt-9">
               <h1 className="text-lg px-2 font-bold">Kota Faculty</h1>
               <p className="px-2 text-[#494A4A]">Expert faculty, top-notch study material and teaching methods perfected in Kota over 35+ years</p>
