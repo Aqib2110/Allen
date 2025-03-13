@@ -5,7 +5,7 @@ return (
     <div className='fixed top-[0px] z-10 w-full'>
 
 
-<div className="bg-white flex sm:hidden py-6 px-6 justify-between items-center w-full">
+<div className="bg-white flex sm:hidden py-4 px-6 justify-between items-center w-full">
         <div className="w-1/2 flex gap-3  items-center">
           <GiHamburgerMenu className="text-[24px]" />
           <svg
