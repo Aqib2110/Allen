@@ -2,7 +2,7 @@ import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
 return (
-    <div className='fixed z-10 w-full'>
+    <div className='fixed top-[0px] z-10 w-full'>
 
 
 <div className="bg-white flex sm:hidden py-6 px-6 justify-between items-center w-full">
