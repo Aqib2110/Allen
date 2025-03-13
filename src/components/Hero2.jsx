@@ -18,9 +18,9 @@ const Hero2 = () => {
     // const slideDistance = window.innerWidth < 640 ? 100 : 150; // 100px for mobile, 150px for larger screens
     // const maxTrans = window.innerWidth < 640 ? 600 : 300; // Set max translation for different screens
   
-    if (diff > 50 && trans <= 900) {
+    if (diff >= 30 && trans <= 900) {
       setTrans((val) => val + 150);
-    } else if (diff < -50 && trans >= 0) {
+    } else if (diff < -30 && trans >= 0) {
       setTrans((val) => val - 150);
     }
   };
