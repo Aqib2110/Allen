@@ -19,12 +19,12 @@ const Trending = () => {
         </div>
 <div className='mt-8 '>
     <span className='md:flex md:flex-row flex-col lg:w-3/4 w-29/30 mx-auto px-5 justify-between'>
-    <div className='flex justify-between w-27/30 md:mx-0 mx-auto md:w-[433px] rounded-lg bg-[#D5E8FF]'>
+    <div className='flex justify-between w-27/30 md:mx-0 mx-auto sm:w-29/30 rounded-lg bg-[#D5E8FF]'>
     <span className='font-bold text-lg px-1 lg:px-4 py-3 '>View JEE Main 2025 Results</span>
     <img alt="" width="28" height="48" loading="lazy" className="ml-3 lg:h-12 lg:py-3" data-testid="shownImage" src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_400,f_auto,q_auto/v1733810195/zey5b8tscj7ribv0xga4.svg?_upload_ref=ic_img_tool&amp;__ar__=1.04" style={{ display: "block", aspectRatio: 1.04 / 1 }}
       ></img>
     </div>
-<div className='flex justify-between w-27/30 md:mx-0 md:my-0 my-5 mx-auto md:w-[433px] rounded-lg bg-[#D5E8FF]'>
+<div className='flex justify-between w-27/30 md:mx-0 md:my-0 my-5 mx-auto  sm:w-29/30 rounded-lg bg-[#D5E8FF]'>
 <span className='font-bold text-lg px-1 lg:px-4 py-3 '>View NEET 2024 Results</span>
 <img alt="" width="28" height="48" loading="lazy" className="ml-3 text-black lg:h-12 lg:py-3" data-testid="shownImage" src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_400,f_auto,q_auto/v1733810195/zey5b8tscj7ribv0xga4.svg?_upload_ref=ic_img_tool&amp;__ar__=1.04" style={{ display: "block",color:"black", aspectRatio: 1.04 / 1 }}
       ></img>
