@@ -4,7 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 const Navbar = () => {
-const [close, setclose] = useState('block');
+const [close, setclose] = useState('none');
 
 const handleOpen = ()=>{
   setclose('block');
