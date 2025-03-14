@@ -12,7 +12,7 @@ const Footer = () => {
           />
         </div>
         <div className=" ">
-          <div className="h-[950px] sm:h-[740px] lg:h-[400px] mt-10 w-29/30 lg:w-8/11 mx-auto">
+          <div className="mt-10 w-29/30 lg:w-8/11 mx-auto">
             <div className="px-2 grid lg:grid-cols-6 grid-cols-4  ">
               <div className="col-span-1  w-3/4 sm:w-full flex flex-col gap-4  text-[#1E1E22] text-[14px]">
                 {" "}
