@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='  bg-[#DCEDF8] pb-24 pt-[133px] py-6 w-[100%]'> 
             <div className='border-blue-900 gap-18 lg:gap-35 xl:gap-18 lg:flex w-29/30 sm:w-3/4 mx-auto'>
             <div className='lg:w-1/2 w-full flex  flex-col justify-center '>
-<h1 className='font-bold font-[Plus-Jakarta-Sans] lg:w-[600px] flex justify-center items-center text-2xl sm:pt-0 sm:text-[35px] pt-6  pl-0 lg:pl-6 w-full'>Online coaching that delivers results</h1>
+<h1 className='font-bold font-[Plus-Jakarta-Sans] lg:w-[600px] flex justify-center items-center text-[1.5rem]  sm:pt-0 sm:text-[35px] pt-6  pl-0 lg:pl-6 w-full'>Online coaching that delivers results</h1>
 <p className='font-bold pt-3 sm:pt-12 pl-0 flex lg:flex-none justify-center lg:pl-6 text-[#494A4A]'>Explore our online courses</p>
 <div className='lg:flex flex justify-center  sm:pl-6 pt-4  gap-2'>
 <span className='border-2 text-[13px] font-bold text-center self-center border-[#0555B1] cursor-pointer px-5 py-2.5 rounded-3xl'>NEET</span>
