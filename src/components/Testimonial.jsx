@@ -12,14 +12,14 @@ const handleClickRight = ()=>{
 scrollRef.current.scrollLeft +=500; 
 }
   return (
-    <div className='lg:h-[80vh]  md:h-[45vh] bg-[#EDF2FA]'>
-      <div className='pt-5 sm:pt-12'>
+    <div className='bg-[#EDF2FA] pb-9'>
+      <div className='pt-5  sm:pt-12'>
         <div className='sm:w-5/7 w-full px-3 sm:px-0 mx-auto flex justify-between' >
         <div>
         <h1 className='font-bold mx-auto text-2xl'>Testimonials from our students</h1>
         </div>
        
-        <div className='flex justify-center items-center gap-5'>
+        <div className=' justify-center hidden md:flex items-center gap-5'>
             <span className='cursor-pointer hover:bg-[#DCDCDC] hover:rounded-3xl' onClick={handleClickLeft}>
             <MdKeyboardArrowLeft className='text-[27px]'/>
             </span>
@@ -31,7 +31,12 @@ scrollRef.current.scrollLeft +=500;
         </div>
        
       </div>
-      <div className='h-[330px] lg:ml-auto w-29/30 lg:w-6/7  pt-4 flex px-6 lg:px-6 overflow-hidden  mt-10 gap-6'  ref={scrollRef} >
+      <div className='h-[330px] lg:ml-auto w-29/30 lg:w-6/7  pt-4 flex px-6 lg:px-6 overflow-x-auto  mt-10 gap-6'  ref={scrollRef} 
+       style={{
+        scrollbarWidth: "none", 
+        msOverflowStyle: "none", 
+      }}
+      >
 
 
 <div className='min-w-[320px] h-[240px] sm:h-[315px] bg-white  rounded-2xl'>
@@ -252,3 +257,4 @@ scrollRef.current.scrollLeft +=500;
 }
 
 export default Testimonial
+
