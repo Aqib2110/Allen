@@ -14,7 +14,8 @@ const Trending = () => {
         <h1 className='font-bold text-2xl mx-auto'>Meet our Champions</h1>
         </div>
         <div className='mt-8'>
-            <img src="toppers.avif" className='lg:w-[900px] w-29/30 h-[600px]  mx-auto' alt="" />
+             <img src="toppers.avif" className=' w-27/30 hidden md:block rounded-2xl md:h-[600px] mx-auto' alt="" />
+            <img src="3.jpg" className=' w-27/30 rounded-2xl block md:hidden h-[500px] mx-auto' alt="" />
         </div>
 <div className='mt-8 '>
     <span className='md:flex md:flex-row flex-col lg:w-3/4 w-29/30 mx-auto px-5 justify-between'>
