@@ -129,7 +129,7 @@ const Course = () => {
     <h1 className='font-bold text-xl ml-4 mt-4 mb-2'>Request a callback</h1>
     <hr className='text-white mx-auto px-2 w-18/19'/> 
 </div>
-<div className='flex  justify-between gap-4 px-5 md:px-0 flex-col lg:flex-wrap'>
+<div className='flex  justify-between gap-4 px-2 md:px-0 flex-col lg:flex-wrap'>
 <div className='flex lg:flex-row flex-col  w-full' >
 <label htmlFor="" className='flex   text-md mx-auto w-full lg:w-1/2  flex-col'>   <span className='pl-3 mt-2'>Student’s full name</span> 
     <input type="text" placeholder='Ex:Rohit Singh' className='border-2 bg-white border-gray-700 mx-auto w-29/30 px-4 lg:w-14/15 py-4 lg:py-2 rounded-md' />
